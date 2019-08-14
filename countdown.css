@@ -1,0 +1,87 @@
+@font-face
+{
+	font-family: 'sansation';
+	src: url(Sansation-BoldItalic.ttf) format('truetype');
+}
+
+body
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	background-image: url('https://media.giphy.com/media/U3qYN8S0j3bpK/giphy.gif');
+}
+
+#frame
+{
+	display: flex;
+	justify-content: center;
+	border: 10px double white;
+	font-family: 'sansation';
+	font-size: 4em;
+	color: white;
+	border-bottom-left-radius: 25px;
+	border-bottom-right-radius: 25px;
+	border-top-left-radius: 25px;
+	border-top-right-radius: 25px;
+
+}
+
+#link
+{
+	display: flex;
+	flex-direction: column;
+}
+
+#chatonno .time
+{
+	background-image: url('https://media.giphy.com/media/cXaeWuJ1oKO4g/giphy.gif');
+}
+
+#soeur .time
+{
+	background-image: url('https://media.giphy.com/media/zPj19d0XObKi4/giphy.gif');
+}
+
+.countdown
+{
+	display: flex;
+	justify-content: center;
+}
+
+.info
+{
+	display: flex;
+	justify-content: center;
+	font-family: 'sansation';
+	color: white;
+}
+
+.time
+{
+	font-family: 'sansation';
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 170px;
+	width: 170px;
+	margin-left: 25px;
+	border: 10px double blue;
+	background-clip: content-box;
+	border-bottom-left-radius:  42%;
+	border-bottom-right-radius: 21%;
+	border-top-left-radius: 21%;
+	border-top-right-radius: 42%;
+}
+
+.time strong
+{
+	font-size: 2.5em;
+}
+
+.time p
+{
+	font-size: 1.2em;
+	opacity: 0.72;
+}
