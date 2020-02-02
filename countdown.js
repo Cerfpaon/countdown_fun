@@ -10,7 +10,7 @@ function countdown()
 	arr1 = document.querySelectorAll("#chatonno .time");
 	arr2 = document.querySelectorAll("#soeur .time");
 	now = new Date();
-	meet_chatonno = new Date(2019, 10, 21, 12, 00, 00, 00);
+	meet_chatonno = new Date(2020, 5, 8, 20, 00, 00, 00);
 	meet_soeur = new Date(2019, 11, 24, 9, 40, 00, 00);
 	time = meet_chatonno.getTime() - now.getTime();
 
